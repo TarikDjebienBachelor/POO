@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=Interrupteur(Ampoule)
+comment0.text=\nConstructor\ of\ initialization\ for\ objects\ of\ class\ Interrupteur.\nPar\ default,\ l'interrupteur\ est\ sur\ position\ OFF.\nIl\ a\ le\ m\u00EAme\ ID\ que\ l'ampoule\ qui\ lui\ est\ associ\u00E9e.\n@param\ a\ Ampoule\ \u00E0\ connecter\ avec\ l'interrupteur\ construit.\n\n
+comment1.target=int\ getAmpoule()
+comment1.text=\ngetAmpoule\ -\ Consultation\ de\ l'ID\ de\ l'ampoule\ associ\u00E9e\ \u00E0\ l'interrupteur\ courant.\n@return\ L'ID\ de\ l'ampoule\ associ\u00E9e\ \u00E0\ l'interrupteur\ courant.\n\n
+comment2.params=a
+comment2.target=void\ changerConnexionInterrupteur(Ampoule)
+comment2.text=\nchangerConnexionInterrupteur\ -\ relier\ l'interrupteur\ courant\ \u00E0\ une\ nouvelle\ ampoule.\n@param\ a\ L'ampoule\ a\ relier\ \u00E0\ l'interrupteur\ courant.\ \ \ \ \ \n\n
+comment3.target=void\ allumer()
+comment3.text=\nallumer\ -\ allumer\ l'interrupteur\:\ passer\ en\ postion\ ON.\n\n
+comment4.target=void\ eteindre()
+comment4.text=\neteindre\ -\ eteindre\ l'interrupteur\:\ passer\ en\ postion\ OFF.\n\n
+comment5.target=String\ toString()
+comment5.text=\ntoString\ -\ description\ de\ l'interrupteur\ courant.\n@return\ \ "L'interrupteur\ numero\ [0-9]*\ est\ connect\u00E9\ \u00E0\ l'ampoule\ (ID\ Ampoule\ associ\u00E9),\ il\ est\ en\ position\ (ON/OFF)."\n\n
+numComments=6

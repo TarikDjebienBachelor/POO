@@ -1,0 +1,15 @@
+package PierrePapierCiseaux;
+
+public class Identique implements Strategie{
+
+      /**
+       * getCoup - renvoie un coup identique parmi PIERRE, PAPIER ET CISEAUX. 
+       * @return le Coup identique.
+       */
+      public Coup getCoup(){
+	// coup identique ici par exemple le coup PIERRE
+	Coup identité = Coup.pierre;
+	return identité;
+      }// getCoup
+
+}// Identique

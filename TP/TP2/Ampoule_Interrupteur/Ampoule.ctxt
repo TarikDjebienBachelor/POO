@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=id\ p\ c
+comment0.target=Ampoule(int,\ int,\ String)
+comment0.text=\nConstructor\ of\ initialization\ for\ objects\ of\ class\ Ampoule.\nPar\ default,\ l'ampoule\ construite\ est\ eteinte.\n@param\ id\ identifiant\ \u00E0\ affecter\ \u00E0\ l'objet\ Ampoule\ construit.\n@param\ p\ \ puissance\ \u00E0\ affecter\ \u00E0\ l'objet\ Ampoule\ construit.\n@param\ c\ \ couleur\ \u00E0\ affecter\ \u00E0\ l'objet\ Ampoule\ construit.\n\n
+comment1.target=int\ getNumeroSerie()
+comment1.text=\ngetNumeroSerie\ -\ Consultation\ du\ code\ serie\ de\ l'ampoule\ courante.\n@return\ Le\ code\ serie\ (l'identifiant)\ de\ l'ampoule\ courante.\n\n
+comment2.target=int\ getPuissance()
+comment2.text=\ngetPuissance\ -\ Consultation\ de\ la\ puissance\ de\ l'ampoule\ courante.\n@return\ La\ puissance\ de\ l'ampoule\ courante.\n\n
+comment3.params=p
+comment3.target=void\ setPuissance(int)
+comment3.text=\nsetPuissance\ -\ Modification\ de\ la\ puissance\ de\ l'ampoule\ courante.\n@param\ p\ Puissance\ de\ l'ampoule\ courante\ \u00E0\ modifier.\n\n
+comment4.target=String\ getCouleur()
+comment4.text=\ngetCouleur\ -\ Consultation\ de\ la\ couleur\ de\ l'ampoule\ courante.\n@return\ La\ couleur\ de\ l'ampoule\ courante.\n\n
+comment5.params=c
+comment5.target=void\ setCouleur(String)
+comment5.text=\nsetCouleur\ -\ Modification\ de\ la\ couleur\ de\ l'ampoule\ courante.\n@param\ c\ Couleur\ de\ l'ampoule\ courante\ \u00E0\ modifier.\n\n
+comment6.target=String\ toString()
+comment6.text=\ntoString\ -\ description\ de\ l'ampoule\ courante.\n@return\ "L'ampoule\ numero\ [0-9][0-9]*\ a\ une\ puissance\ de\ [0-9][0-9]*\ Watt,\ \nelle\ est\ de\ couleur\ (unecouleur),\ elle\ (est|n'est\ pas)\ allum\u00E9e."\n\n
+comment7.target=boolean\ estAllume()
+comment7.text=\nestAllume\ -\ Predicat\ \:\ l'ampoule\ est\ -\ elle\ allum\u00E9e?\ \n@return\ \ TRUE\ si\ l'ampoule\ courante\ est\ allum\u00E9e\ FALSE\ sinon.\n\n
+numComments=8

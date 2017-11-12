@@ -1,0 +1,24 @@
+#BlueJ package file
+package.editor.height=400
+package.editor.width=560
+package.editor.x=465
+package.editor.y=151
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+readme.editor.height=517
+readme.editor.width=612
+readme.editor.x=647
+readme.editor.y=252
+target1.editor.height=877
+target1.editor.width=1440
+target1.editor.x=0
+target1.editor.y=23
+target1.height=50
+target1.name=Marchandise
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=100
+target1.x=60
+target1.y=10

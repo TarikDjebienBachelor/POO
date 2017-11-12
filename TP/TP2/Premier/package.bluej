@@ -1,0 +1,24 @@
+#BlueJ package file
+package.editor.height=400
+package.editor.width=560
+package.editor.x=333
+package.editor.y=155
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+readme.editor.height=517
+readme.editor.width=612
+readme.editor.x=409
+readme.editor.y=168
+target1.editor.height=884
+target1.editor.width=1442
+target1.editor.x=-1
+target1.editor.y=23
+target1.height=50
+target1.name=Stock
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=60
+target1.y=10

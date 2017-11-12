@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=Nom
+comment0.target=Marchandise(String)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Marchandise.\nparam\ Nom\ Le\ nom\ \u00E0\ affecter\ \u00E0\ l'objet\ construit.\n\n
+comment1.params=pNom\ pValeur
+comment1.target=Marchandise(String,\ float)
+comment1.text=\nConstructor\ of\ initialization\ for\ objects\ of\ class\ Marchandise.\nparam\ Nom\ Le\ nom\ \u00E0\ affecter\ \u00E0\ l'objet\ construit.\nparam\ Valeur\ La\ Valeur\ \u00E0\ affecter\ \u00E0\ l'objet\ construit.\n\n
+comment2.target=float\ getValue()
+comment2.text=\ngetValue\ -\ Consultation\ de\ la\ valeur\ de\ l'instance\ courante.\n@return\ La\ valeur\ de\ l'instance\ courante.\n\n
+comment3.params=val
+comment3.target=void\ setValue(float)
+comment3.text=\nsetValue\ -\ Modification\ de\ la\ valeur\ de\ l'instance\ courante.\n@param\ val\ La\ nouvelle\ Valeur\ de\ l'instance\ courante.\n\n
+comment4.target=String\ getName()
+comment4.text=\ngetName\ -\ Consultation\ du\ nom\ de\ l'instance\ courante.\n@return\ Le\ nom\ de\ l'instance\ courante.\n\n
+comment5.target=String\ toString()
+comment5.text=\ntoString\ -\ description\ de\ l'instance\ courante.\n@return\ \ "La\ marchandise\ <name>\ vaut\ <value>\ "\n\n
+comment6.target=float\ valTTC()
+comment6.text=\nvalTTC\ -\ transformation\ de\ la\ valeur\ HTC\ vers\ TTC\ de\ l'instance\ courante.\n@return\ \ valeur\ Toute\ Taxe\ Comprise\ de\ l'instance\ courante.\n\n
+numComments=7

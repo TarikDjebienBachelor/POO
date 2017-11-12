@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+  
+  
+  <title>Td8-9 : collections</title>
+  <meta name="author" content="">
+
+  
+  <meta name="description" content="">
+  <script type="text/javascript">
+  
+function voirCode(i,ssConirm) {
+	var d = document.getElementById("code_"+i);
+	var s = document.getElementById("s_code_"+i);
+    if(d.style.display == "none") {
+	if (ssConirm || confirm ('etes-vous sûr d\'avoir suffisamment cherché?')){
+		s.innerHTML     = s.innerHTML.replace("Voir", "Masquer");
+		d.style.display = "block";
+	}
+    } else {
+	s.innerHTML     = s.innerHTML.replace("Masquer", "Voir");
+        d.style.display = "none";
+    }
+}
+</script>
+</head><body style="background: rgb(255, 255, 238) url(../../include/images/fondcadre2.png) repeat fixed center top; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; direction: ltr;">
+
+<div style="text-align: center;"><big style="font-weight: bold; font-style: italic;"><big>Liste d'étudiants et formation</big></big><br>
+
+<br>
+
+</div>
+
+<big style="font-weight: bold; font-style: italic; text-decoration: underline;">Sujet
+</big><br>
+<br>
+<fieldset style="margin-bottom: 10px; margin-top: 10px; margin-left: 50px; width: 700px; font-size: 13px; text-align: left;">
+		<legend>Texte du sujet :</legend>
+		USTL Licence Informatique 2006­2007<br>
+
+<b>UE Programmation Orientée Objet</b><br>
+
+<b>TD Collections</b><br>
+
+<b>Exercice 1 :</b><br>
+
+<b>Etudiants, Matières, Groupes et Formations</b><br>
+
+(<i>utilisation de :</i><br>
+
+<i>java.util.Map, java.util.List, java.util.Set, java.util.Iterator,</i><br>
+
+<i>java.util.Collections, java.util.Comparator</i>)<br>
+Un étudiant est caractérisé par son
+identité, sa formation et ses résultats.
+L'identité est définie par un NIP, un nom<br>
+et un prénom (3 chaînes de caractères). Les
+résultats d'un étudiant sont mémorisés sous
+la forme d'une liste de<br>
+notes par matière .<br>
+Une formation est définie par un identifiant et la liste des
+matières qui y sont enseignées avec leurs coefficients.<br>
+Une matière est définie par son nom.<br>
+Un groupe d'étudiants est défini par la liste des
+étudiants qui le compose et la formation à laquelle ce
+groupe<br>
+appartient.<br>
+La classe formation.Identite est définie ainsi :<br>
+
+<table style="text-align: left; margin-left: 150px; width: 327px; height: 248px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr align="center">
+      <td><b>formation::Identite</b></td>
+    </tr>
+    <tr>
+      <td>
+- nip : String<br>
+- nom : String<br>
+- prenom : String</td>
+    </tr>
+    <tr>
+      <td>+Identite(nip : String, nom : String, prenom :String)<br>
++getNip():String<br>
++getNom():String<br>
++getPrenom():String<br>
++toString():String</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<b>Q 1 . </b>Définir la classe Formation. On veut pouvoir ajouter ou supprimer une matière dans une formation.
+Connaître le coefficient d'une matière.<br>
+
+<b>Q 2 . </b>Définir la classe Etudiant. Il faut pouvoir ajouter une note `a un étudiant, calculer sa moyenne pour une
+matière, sa moyenne générale, modifier sa formation.<br>
+
+<b>Q 3 . </b>Définir la classe Groupe. On doit pouvoir ajouter, supprimer un étudiant du groupe, calculer la moyenne
+du groupe pour une matière, la moyenne générale.<br>
+
+<b>Q 4 . </b>Pour la classe Groupe : on veut pouvoir trier les étudiants du groupe selon différents critères. Et donc
+avoir des méthodes triParMerite, triAlpha, triParMatière qui retournent la liste des étudiants
+du groupe triée selon leur moyenne générale
+décroissante, leur ordre alpha croissant, leur moyenne dans une
+matière croissante.<br>
+
+
+</fieldset>
+<br>
+<a href="javascript:void(0)" onclick="voirCode('03',false)" style="background: transparent none repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous;">
+<span id="s_code_03"><big style="font-weight: bold; font-style: italic; text-decoration: underline;">Masquer UML : <br></big></span></a>
+<div id="code_03" style="display: block;">
+
+<img style="width: 750px; height: 896px; margin-left: 30px;" alt="Patience : cherchez encore ..." src="index_fichiers/formation.png">
+</div><br>
+<big style="font-weight: bold; font-style: italic; text-decoration: underline;">Une des nombreuses correction possible
+</big><br>
+
+le fichier jar : <a href="http://www2.lifl.fr/%7Emailliet/Poo/td8/Formation.jar">ici</a> <br>
+
+<br>
+
+pour exécuter l'appli graphique : java -jar Formation.jar<br>
+
+<br>
+
+pour &nbsp;décompresser l'archive jar : &nbsp;<font color="black">jar xvf &nbsp;</font>Formation.jar<br>
+
+<br>
+
+observez aussi le fichier compile.bat dans le répertoire
+batch (jar décomprimé)<br>
+
+<br>
+
+</body></html>

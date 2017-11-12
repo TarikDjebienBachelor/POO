@@ -1,0 +1,41 @@
+
+Liste des Fichiers :
+ 
+ ./ 
+  
+  + Carte.java
+  + Hand.java
+  + Player.java
+  + Jeu.java
+  + Debut.java
+  + Principal.java
+  + JeuDeCarteBataille.java
+  + Test.java
+  + jouer.bat
+
+
+ ./save
+
+  +contient les fichiers .bjc des parties jouées.
+    
+    
+ ./img
+    
+  +contient les fichiers images .gif présentants les cartes.
+ 
+ 
+ ./game
+   
+  +contient les fichiers .class
+
+
+Noté bien :
+  pour lancer l'application il suffit d'executer 
+    
+     + jouer.bat sur Microsoft windows.
+     + java game/JeuDeCarteBataille
+
++++++++++++++++++++++++++++ merci +++++++++++++++++++++++++++++++++++++  
+                     bsmimite@hotmail.com
+  
+  
